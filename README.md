@@ -7,6 +7,6 @@ R. Xu, A. Torres-Orjuela, L. Andersson, and P. Amaro Seoane, *The I-Love univers
 for reference.
 
 
-# Usage:
+**Usage**:
 
 Change the parameter **npolyind** in the Mathematica notebooks to calculate mass-radius relation, moment of inertia, and tidal Love number for different polytropic equations of state. 
