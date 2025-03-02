@@ -1,0 +1,22 @@
+{(E^(I*si*t)*(2*af[r]^2*bf[r]^2*((-2 + l + l^2 + 2*ka*r^2*epf[r])*oh0f[r] + 
+      (2*I)*ka*r^2*si*(epf[r] + pf[r])*uf[r]) + r*bf[r]*Derivative[1][af][r]*
+     (-(r*oh0f[r]*Derivative[1][bf][r]) + 
+      bf[r]*(-4*oh0f[r] - I*r*si*oh1f[r] + r*Derivative[1][oh0f][r])) + 
+    af[r]*(-(r^2*oh0f[r]*Derivative[1][bf][r]^2) + 
+      r^2*bf[r]*((-I)*si*oh1f[r]*Derivative[1][bf][r] + 
+        Derivative[1][bf][r]*Derivative[1][oh0f][r] + 
+        2*oh0f[r]*Derivative[2][bf][r]) + 
+      bf[r]^2*(4*oh0f[r] + (2*I)*r*(2*si*oh1f[r] + 
+          r*si*Derivative[1][oh1f][r] + I*r*Derivative[2][oh0f][r])))))/
+  (4*r^2*af[r]^2*bf[r]^2), 
+ -1/4*(E^(I*si*t)*(r*bf[r]*oh1f[r]*Derivative[1][af][r]*
+      (2*bf[r] + r*Derivative[1][bf][r]) + 2*af[r]^2*bf[r]*
+      ((-2*I)*r*si*oh0f[r] + oh1f[r]*(r^2*si^2 - 
+         bf[r]*(-2 + l + l^2 - 2*ka*r^2*pf[r])) + 
+       I*r^2*si*Derivative[1][oh0f][r]) + r*af[r]*oh1f[r]*
+      (r*Derivative[1][bf][r]^2 - 2*bf[r]*(Derivative[1][bf][r] + 
+         r*Derivative[2][bf][r]))))/(r^2*af[r]^2*bf[r]^2), 
+ (E^(I*si*t)*((2*I)*si*af[r]^2*oh0f[r] + bf[r]*oh1f[r]*Derivative[1][af][r] - 
+    af[r]*(oh1f[r]*Derivative[1][bf][r] + 2*bf[r]*Derivative[1][oh1f][r])))/
+  (2*af[r]^2*bf[r]), 
+ -((E^(I*si*t)*si*(epf[r] + pf[r])*((-I)*oh0f[r] + si*uf[r]))/(r^2*bf[r]))}

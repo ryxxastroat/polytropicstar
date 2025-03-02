@@ -1,0 +1,110 @@
+{-((E^(I*si*t)*bf[r]*eh0f[r])/r^2) + (E^(I*si*t)*bf[r]*eh0f[r])/(r^2*af[r]) + 
+  (E^(I*si*t)*l*bf[r]*eh2f[r])/(2*r^2) + (E^(I*si*t)*l^2*bf[r]*eh2f[r])/
+   (2*r^2) + (E^(I*si*t)*bf[r]*eh2f[r])/(r^2*af[r]) - 
+  (E^(I*si*t)*bf[r]*ekf[r])/r^2 + (E^(I*si*t)*l*bf[r]*ekf[r])/(2*r^2) + 
+  (E^(I*si*t)*l^2*bf[r]*ekf[r])/(2*r^2) + E^(I*si*t)*ka*bf[r]*eh0f[r]*
+   epf[r] + (E^(I*si*t)*ka*bf[r]*eh2f[r]*epf[r])/2 + 
+  E^(I*si*t)*ka*bf[r]*ekf[r]*epf[r] + (E^(I*si*t)*ka*bf[r]*eh2f[r]*pf[r])/2 + 
+  E^(I*si*t)*ka*bf[r]*ekf[r]*pf[r] - (E^(I*si*t)*ka*l*bf[r]*epf[r]*vf[r])/
+   r^2 - (E^(I*si*t)*ka*l^2*bf[r]*epf[r]*vf[r])/r^2 - 
+  (E^(I*si*t)*ka*l*bf[r]*pf[r]*vf[r])/r^2 - 
+  (E^(I*si*t)*ka*l^2*bf[r]*pf[r]*vf[r])/r^2 + 
+  (2*E^(I*si*t)*ka*bf[r]*epf[r]*w1f[r])/(r*af[r]) + 
+  (2*E^(I*si*t)*ka*bf[r]*pf[r]*w1f[r])/(r*af[r]) - 
+  (E^(I*si*t)*bf[r]*eh0f[r]*Derivative[1][af][r])/(r*af[r]^2) - 
+  (E^(I*si*t)*bf[r]*eh2f[r]*Derivative[1][af][r])/(r*af[r]^2) - 
+  (E^(I*si*t)*ka*bf[r]*epf[r]*w1f[r]*Derivative[1][af][r])/(2*af[r]^2) - 
+  (E^(I*si*t)*ka*bf[r]*pf[r]*w1f[r]*Derivative[1][af][r])/(2*af[r]^2) + 
+  (E^(I*si*t)*bf[r]*Derivative[1][eh2f][r])/(r*af[r]) - 
+  (3*E^(I*si*t)*bf[r]*Derivative[1][ekf][r])/(r*af[r]) + 
+  (E^(I*si*t)*bf[r]*Derivative[1][af][r]*Derivative[1][ekf][r])/(2*af[r]^2) + 
+  (E^(I*si*t)*ka*bf[r]*w1f[r]*Derivative[1][epf][r])/af[r] + 
+  (E^(I*si*t)*ka*bf[r]*epf[r]*Derivative[1][w1f][r])/af[r] + 
+  (E^(I*si*t)*ka*bf[r]*pf[r]*Derivative[1][w1f][r])/af[r] - 
+  (E^(I*si*t)*bf[r]*Derivative[2][ekf][r])/af[r], 
+ E^(I*si*t)*ka*(eh1f[r]*epf[r] + I*si*(epf[r] + pf[r])*w1f[r]) + 
+  (E^(I*si*t)*(2*af[r]*bf[r]*eh1f[r] - 2*r*bf[r]*eh1f[r]*
+      Derivative[1][af][r] + af[r]^2*(I*r^2*si*ekf[r]*Derivative[1][bf][r] + 
+       bf[r]*((-2 + l + l^2)*eh1f[r] - (2*I)*r*si*(-eh2f[r] + ekf[r] + 
+           r*Derivative[1][ekf][r])))))/(2*r^2*af[r]^2*bf[r]), 
+ (E^(I*si*t)*l*af[r]*eh0f[r])/(2*r^2) + (E^(I*si*t)*l^2*af[r]*eh0f[r])/
+   (2*r^2) + ((2*I)*E^(I*si*t)*si*eh1f[r])/(r*bf[r]) - 
+  (E^(I*si*t)*af[r]*eh2f[r])/r^2 + (E^(I*si*t)*af[r]*ekf[r])/r^2 - 
+  (E^(I*si*t)*l*af[r]*ekf[r])/(2*r^2) - (E^(I*si*t)*l^2*af[r]*ekf[r])/
+   (2*r^2) + (E^(I*si*t)*si^2*af[r]*ekf[r])/bf[r] - 
+  E^(I*si*t)*ka*af[r]*eh2f[r]*pf[r] + 
+  (E^(I*si*t)*ka*af[r]*eh2f[r]*gaf[r]*pf[r])/2 + 
+  E^(I*si*t)*ka*af[r]*ekf[r]*gaf[r]*pf[r] - 
+  (E^(I*si*t)*ka*l*af[r]*gaf[r]*pf[r]*vf[r])/r^2 - 
+  (E^(I*si*t)*ka*l^2*af[r]*gaf[r]*pf[r]*vf[r])/r^2 + 
+  (2*E^(I*si*t)*ka*gaf[r]*pf[r]*w1f[r])/r - 
+  (E^(I*si*t)*ka*gaf[r]*pf[r]*w1f[r]*Derivative[1][af][r])/(2*af[r]) - 
+  (E^(I*si*t)*Derivative[1][eh0f][r])/r + (E^(I*si*t)*Derivative[1][ekf][r])/
+   r + (E^(I*si*t)*Derivative[1][bf][r]*Derivative[1][ekf][r])/(2*bf[r]) + 
+  E^(I*si*t)*ka*w1f[r]*Derivative[1][pf][r] + E^(I*si*t)*ka*gaf[r]*pf[r]*
+   Derivative[1][w1f][r], -(E^(I*si*t)*ka*m*si*(epf[r] + pf[r])*vf[r]) + 
+  (E^(I*si*t)*m*(2*si*af[r]^2*bf[r]*(eh2f[r] + ekf[r]) - 
+     I*bf[r]*eh1f[r]*Derivative[1][af][r] + 
+     I*af[r]*(eh1f[r]*Derivative[1][bf][r] + 
+       2*bf[r]*Derivative[1][eh1f][r])))/(4*af[r]^2*bf[r]), 
+ (E^(I*si*t)*m*(2*r*si*eh1f[r] + I*r*(eh0f[r] + eh2f[r])*
+     Derivative[1][bf][r] - (2*I)*bf[r]*(eh0f[r] - eh2f[r] + 
+      r*(-Derivative[1][eh0f][r] + Derivative[1][ekf][r]))))/(4*r*bf[r]), 
+ ((I/2)*m*Sqrt[(l - m)*(1 + l + m)]*(eh0f[r] - eh2f[r]))/E^(I*(ph - si*t)), 
+ (E^(I*si*t)*(2*af[r]^2*bf[r]*(r^2*si^2*(eh2f[r] + ekf[r]) + 
+      bf[r]*(l*(1 + l)*eh0f[r] - eh2f[r]*(l + l^2 - ka*r^2*gaf[r]*pf[r]) + 
+        2*ka*pf[r]*(r^2*ekf[r]*(-1 + gaf[r]) - l*(1 + l)*gaf[r]*vf[r]))) - 
+    r*bf[r]*Derivative[1][af][r]*((2*I)*r*si*eh1f[r] + 
+      r*(-eh2f[r] + ekf[r])*Derivative[1][bf][r] + 
+      bf[r]*(-2*eh2f[r] + 2*ekf[r] + r*(2*ka*gaf[r]*pf[r]*w1f[r] - 
+          Derivative[1][eh0f][r] + Derivative[1][ekf][r]))) + 
+    r*af[r]*(r*(eh2f[r] - ekf[r])*Derivative[1][bf][r]^2 + 
+      bf[r]*((4*I)*si*eh1f[r] - 2*Derivative[1][bf][r]*(eh2f[r] - ekf[r] + 
+          r*Derivative[1][eh0f][r]) + r*((4*I)*si*Derivative[1][eh1f][r] + 
+          Derivative[1][bf][r]*(-Derivative[1][eh2f][r] + Derivative[1][ekf][
+             r]) + 2*(-eh2f[r] + ekf[r])*Derivative[2][bf][r])) + 
+      2*bf[r]^2*(-Derivative[1][eh0f][r] - Derivative[1][eh2f][r] + 
+        2*Derivative[1][ekf][r] + 2*ka*gaf[r]*pf[r]*(2*w1f[r] + 
+          r*Derivative[1][w1f][r]) + r*(2*ka*w1f[r]*Derivative[1][pf][r] - 
+          Derivative[2][eh0f][r] + Derivative[2][ekf][r])))))/
+  (4*af[r]^2*bf[r]^2), (E^(I*si*t)*(eh1f[r] + I*si*w1f[r])*
+   (epf[r]*Derivative[1][bf][r] + pf[r]*Derivative[1][bf][r] + 
+    2*bf[r]*Derivative[1][pf][r]))/(2*af[r]*bf[r]^2), 
+ -1/4*(E^(I*si*t)*(4*r^3*bf[r]*gaf[r]*pf[r]*w1f[r]*Derivative[1][af][r]^2 + 
+     af[r]^3*((-4*I)*r^3*si*eh1f[r]*(epf[r] + pf[r]) + 
+       r*(epf[r]*(4*r^2*si^2*w1f[r] + (3*r^2*eh2f[r] + 2*r^2*ekf[r] - 
+             2*l*(1 + l)*vf[r])*Derivative[1][bf][r]) + 
+         pf[r]*(4*r^2*si^2*w1f[r] + (r^2*eh2f[r]*(3 + gaf[r]) + 
+             2*(1 + gaf[r])*(r^2*ekf[r] - l*(1 + l)*vf[r]))*
+            Derivative[1][bf][r])) + 2*bf[r]*
+        (r^3*epf[r]*Derivative[1][eh0f][r] + 
+         r*pf[r]*(r^2*Derivative[1][eh0f][r] + (r^2*eh2f[r] + 2*r^2*ekf[r] - 
+             2*l*(1 + l)*vf[r])*Derivative[1][gaf][r]) + 
+         2*r^3*eh2f[r]*Derivative[1][pf][r] + 
+         gaf[r]*(r*(r^2*eh2f[r] + 2*r^2*ekf[r] - 2*l*(1 + l)*vf[r])*
+            Derivative[1][pf][r] + pf[r]*(4*l*(1 + l)*vf[r] + 
+             r^3*Derivative[1][eh2f][r] + 2*r^3*Derivative[1][ekf][r] - 
+             2*l*(1 + l)*r*Derivative[1][vf][r])))) - 
+     r^2*af[r]*(r*(epf[r] + (1 + gaf[r])*pf[r])*w1f[r]*Derivative[1][af][r]*
+        Derivative[1][bf][r] + 2*bf[r]*(r*w1f[r]*Derivative[1][af][r]*
+          (pf[r]*Derivative[1][gaf][r] + 2*Derivative[1][pf][r]) + 
+         gaf[r]*(r*w1f[r]*Derivative[1][af][r]*Derivative[1][pf][r] + 
+           pf[r]*(4*w1f[r]*Derivative[1][af][r] + 3*r*Derivative[1][af][r]*
+              Derivative[1][w1f][r] + r*w1f[r]*Derivative[2][af][r])))) + 
+     2*r*af[r]^2*(r*Derivative[1][bf][r]*
+        (r*w1f[r]*(Derivative[1][epf][r] + Derivative[1][pf][r]) + 
+         epf[r]*(2*w1f[r] + r*Derivative[1][w1f][r]) + (1 + gaf[r])*pf[r]*
+          (2*w1f[r] + r*Derivative[1][w1f][r])) + 
+       2*bf[r]*(r*(pf[r]*Derivative[1][gaf][r]*(2*w1f[r] + 
+             r*Derivative[1][w1f][r]) + r*(Derivative[1][pf][r]*
+              Derivative[1][w1f][r] + w1f[r]*Derivative[2][pf][r])) + 
+         gaf[r]*(r*Derivative[1][pf][r]*(2*w1f[r] + r*Derivative[1][w1f][
+               r]) + pf[r]*(-2*w1f[r] + 2*r*Derivative[1][w1f][r] + 
+             r^2*Derivative[2][w1f][r]))))))/(r^3*af[r]^4*bf[r]), 
+ ((-1/2*I)*E^(I*si*t)*m*(af[r]^2*(2*r^2*si^2*(epf[r] + pf[r])*vf[r] + 
+      bf[r]*(r^2*eh0f[r]*(epf[r] + pf[r]) + gaf[r]*pf[r]*
+         (r^2*eh2f[r] + 2*r^2*ekf[r] - 2*l*(1 + l)*vf[r]))) - 
+    r^2*bf[r]*gaf[r]*pf[r]*w1f[r]*Derivative[1][af][r] + 
+    2*r*af[r]*bf[r]*(r*w1f[r]*Derivative[1][pf][r] + 
+      gaf[r]*pf[r]*(2*w1f[r] + r*Derivative[1][w1f][r]))))/
+  (r^4*af[r]^2*bf[r])}

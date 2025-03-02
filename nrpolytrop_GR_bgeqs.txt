@@ -1,0 +1,3 @@
+{bf[r]*((-1 + af[r])/r + ka*r*af[r]*pf[r]) - Derivative[1][bf][r], 
+ af[r]*((1 - af[r])/r + ka*r*af[r]*epf[r]) - Derivative[1][af][r], 
+ ((-epf[r] - pf[r])*Derivative[1][bf][r])/(2*bf[r]) - Derivative[1][pf][r]}
