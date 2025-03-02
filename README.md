@@ -1,2 +1,7 @@
 # polytropicstar
-numerical code to calculate moment of inertia and tidal Love number of polytropic stars
+Numerical code to calculate moment of inertia and tidal Love number of polytropic stars
+Please see
+R. Xu, A. Torres-Orjuela, L. Andersson, and P. Amaro Seoane, *The I-Love universal relation for polytropic stars under Newtonian gravity*, arXiv:2501.07184
+for reference.
+
+
